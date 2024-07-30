@@ -1,0 +1,92 @@
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    width: 260px;
+    margin-top: 30px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .avatar {
+    margin: 30px 0;
+  }
+  
+  .avatarImage {
+    display: block;
+    border-radius: 50%;
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+  }
+  
+  p {
+    margin: 0 0 15px;
+  }
+  
+  .name {
+    font-size: large;
+    font-weight: bold;
+  }
+  
+  .tag,
+  .location {
+    font-size: medium;
+    color: grey;
+  }
+  
+  .stats {
+    display: flex;
+    list-style: none;
+    justify-content: stretch;
+    margin: 15px 0 0;
+    padding: 0;
+  }
+  
+  .stats li {
+    flex: 1;
+    margin: 0;
+    text-align: center;
+    background-color: #F3F6F9;
+  }
+  
+  .stats li:nth-child(1) {
+    border-top: 1px solid #ccc;
+    border-radius: 0 0 0 5px;
+  }
+  
+  .stats li:nth-child(2) {
+    border: 1px solid #ccc;
+    border-bottom: none;
+  }
+  
+  .stats li:nth-child(3) {
+    border-top: 1px solid #ccc;
+    border-radius: 0 0 5px 0;
+  }
+  
+  .stats .label,
+  .stats .quantity {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .stats .label {
+    padding: 20px 0 9px;
+    color: grey;
+  }
+  
+  .stats .quantity {
+    padding: 0 0 20px;
+    font-weight: bold;
+  }
+  

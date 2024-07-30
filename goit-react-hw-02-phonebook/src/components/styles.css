@@ -1,0 +1,65 @@
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  * {
+    box-sizing: border-box;
+  }
+
+  .contacts-heading {
+    margin: 10px 0;
+  }
+
+form {
+    display: inline-block;
+    text-align: left;
+    margin-bottom: 5px;
+  }
+  
+  .name-label,
+  .number-label,
+  .filter-input {
+    font-weight: 500;
+    color: black;
+  }
+  #filterInput {
+    margin: 5px 0 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  input {
+    margin-bottom: 5px;
+    font-size: 14px;
+    display: block;
+  }
+  
+  .form-container {
+    border: 1px solid #ccc;
+    padding: 10px; 
+    width: 400px; 
+    border-color: black;
+    margin: 0 auto; 
+  }
+
+  *:focus {
+    outline: 2px solid #007bff;
+    border: 1px solid transparent;;
+    border-radius: 1px;
+  }
+
+  .delete-button {
+    margin-left: 5px;
+  }
+
+
+  .added-list {
+    margin-left: 30px;
+  }
